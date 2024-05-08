@@ -1,0 +1,14 @@
+.log-out-button {
+  margin-left: 15px;
+  background-color: #3c78d8;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+.link-item {
+  color: #000000;
+  text-decoration: none;
+}

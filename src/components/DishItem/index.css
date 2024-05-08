@@ -1,0 +1,85 @@
+.dishItem-card {
+  list-style-type: none;
+
+  padding: 30px;
+  border: 2px solid #efefef;
+  box-shadow: 4px 0px 0px 16px #ffffff;
+  border-radius: 5px;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.dish-item-details-container {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+}
+
+.dish-name {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0px;
+}
+.dish-currency-price {
+  font-weight: 500;
+  color: #000000;
+  font-size: 18px;
+  margin: 5px 5px 5px 0px;
+}
+.description {
+  font-size: 18px;
+  color: #b7b7b7;
+  margin: 5px 5px 5px 0px;
+}
+.not-available {
+  color: red;
+  font-size: 18px;
+}
+.button-container {
+  height: 30px;
+  width: 120px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #38761d;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.minus-button {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 26px;
+}
+.value {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+}
+.calories {
+  color: #ff9900;
+  font-size: 24px;
+  font-weight: 500;
+}
+.image {
+  width: 100px;
+}
+.add-on-cat {
+  color: #0000ff;
+  font-size: 24px;
+  font-weight: 400;
+}
+.add-to-cart-button{
+  background-color: #09ec4d;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 10px;
+}
